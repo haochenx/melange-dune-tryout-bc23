@@ -1,0 +1,5 @@
+(melange.emit
+ (target mel-out)
+ (promote (until-clean))
+ (libraries foo bin))
+

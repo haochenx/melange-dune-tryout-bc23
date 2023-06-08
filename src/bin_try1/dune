@@ -1,3 +1,12 @@
-(melange.emit
- (alias mel)
- (target output))
+; (melange.emit
+;  (target melobj)
+;  (runtime_deps dune)
+;  (promote (until-clean))
+;  (emit_stdlib false)
+;  (libraries foo))
+
+(library
+ (name bin)
+ (wrapped false)
+ (modes melange)
+ (preprocess (pps melange.ppx)))
