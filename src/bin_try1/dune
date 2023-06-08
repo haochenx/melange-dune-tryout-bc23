@@ -1,1 +1,3 @@
-(melange.emit (alias mel) (target output))
+(melange.emit
+ (alias mel)
+ (target output))

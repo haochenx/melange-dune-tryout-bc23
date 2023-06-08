@@ -1,1 +1,4 @@
-(library (name foo) (modes melange) (preprocess (pps melange.ppx)))
+(library
+ (name foo)
+ (modes melange)
+ (preprocess (pps melange.ppx)))
